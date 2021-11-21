@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Books APP</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <nav class ="nav">
+            <a href="/availablebooks" class="nav__link" data-link>back</a>
+        </nav>
+        <h3> Search book by Name or Author</h3>
+        <div class = "container mt-4">
+            <form id="delete-form">
+                <div class="form-group">
+                    <label for="bookId"> Book Id</label>
+                    <input type="text" id = "bookId" class="form-control">
+                </div>
+                <input type="submit" value="delete book" class="btn btn-primary btn-block">
+            </form>
+        </div>
+        <script src="/static/delete.js" ></script>
+    </body>
+</html>

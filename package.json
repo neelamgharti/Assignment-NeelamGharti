@@ -1,0 +1,23 @@
+{
+  "name": "jspractice",
+  "version": "1.0.0",
+  "description": "This is a repository for all the JavaScript/node js practice or assignment code\r FrontEnd Tech - JavaScript\r BackEnd Tech - JavaScript and Node js",
+  "main": "src/app.js",
+  "scripts": {
+    "start" : "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neelamgharti/jspractice.git"
+  },
+  "author": "Neelam Gharti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neelamgharti/jspractice/issues"
+  },
+  "homepage": "https://github.com/neelamgharti/jspractice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

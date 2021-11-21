@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Books APP</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <nav class ="nav">
+            <a href="/" class="nav__link" data-link>back</a>
+        </nav>
+        <h3> Search book by Name or Author</h3>
+        <div class = "container mt-4">
+            <form id="search-form">
+                <div class="form-group">
+                    <label for="bookName"> Book Name</label>
+                    <input type="text" id = "bookName" class="form-control">
+                </div>
+                <h2> OR </h2>
+                <div class="form-group">
+                    <label for="author"> Author Name</label>
+                    <input type="text" id = "author" class="form-control">
+                </div>
+                
+                <input type="submit" value="search book" class="btn btn-primary btn-block">
+            </form>
+        </div>
+        <script src="/static/search.js" ></script>
+    </body>
+</html>
