@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav class ="nav">
+        <a href="/" class="nav__link" data-link>back</a>
+        <a href = "/updatebook" class ="nav_link" data-link>update book</a>
+        <a href= "/delete" class = "nav_link" data-link> delete book</a>
+    </nav>
+    <h3>Available Books</h3>
+    <table class="table table-striped mt-5">
+        <thead>
+            <tr>
+                <th>Book Id</th>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Publisher</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody id="books">
+
+        </tbody>
+    </table>
+    <script src="/static/books.js" ></script>
+</body>
+</html>

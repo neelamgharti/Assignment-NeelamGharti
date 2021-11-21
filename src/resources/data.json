@@ -1,0 +1,44 @@
+[
+    {
+        "bookId": "1",
+        "bookName": "Let us C",
+        "author": "Yashavant P Kanetkar",
+        "price": "280",
+        "publisher": "BPB Publications"
+    },
+    {
+        "bookId": "2",
+        "bookName": "Java : Complete Reference",
+        "author": "Herbert Schildt",
+        "price": "765",
+        "publisher": "McGraw Hill Education"
+    },
+    {
+        "bookId": "3",
+        "bookName": "JavaScript: The Good Parts",
+        "author": "Douglas Crockford",
+        "price": "765",
+        "publisher": "O'Reilly Media"
+    },
+    {
+        "bookId": "4",
+        "bookName": "Learning Python",
+        "author": "Mark Lutz",
+        "price": "2000.89",
+        "publisher": "O'Reilly Media"
+    },
+    {
+        "bookId": "5",
+        "bookName": "C++",
+        "author": "Yashavant P Kanetkar",
+        "publisher": "BPB Publications",
+        "price": "300"
+    },
+    {
+        "bookId": "6",
+        "bookName": "Node.js in Action",
+        "author": "Marc Harter",
+        "publisher": "Manning Publications",
+        "price": "300"
+    }
+]
